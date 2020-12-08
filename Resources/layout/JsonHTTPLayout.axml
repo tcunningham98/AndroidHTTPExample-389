@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	
+	android:padding="10dip"
+    android:layout_margin="10dip">
+
+    <Button
+        android:text="Get Datasets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnGetDatasetsJson" />
+
+  <Button
+    android:text="Get Stations"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnGetStationsJson" />
+
+  <Button
+    android:text="Get Data Types"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnGetDataTypesJson" />
+  
+  <ScrollView
+      android:minWidth="25px"
+      android:minHeight="25px"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/scrollView1">
+
+    <TextView
+      android:text=""
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/tvOutputJson" />
+
+  </ScrollView>
+  
+</LinearLayout>

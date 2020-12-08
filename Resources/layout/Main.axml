@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:padding="10dip"
+    android:layout_margin="10dip"
+	>
+
+    <Button
+        android:text="Show Network Info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnShowNetworkInfo" />
+    <Button
+        android:text="Show Async Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnShowAsyncDemo" />
+    <Button
+        android:text="Simple HTTP Reqeust"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSimpleHTTPRequest" />
+    <Button
+        android:text="Json HTTP Request"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnJsonHTTPRequest" />
+    <Button
+        android:text="XML HTTP Request"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnXmlHTTPRequest" />
+</LinearLayout>

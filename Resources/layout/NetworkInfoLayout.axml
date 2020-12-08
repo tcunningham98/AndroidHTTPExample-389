@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:padding="5dip"
+    android:layout_margin="5dip">
+
+  <CheckBox
+      android:text="IsAvailable"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/chkIsAvailable"
+      android:textSize="12dp" />
+  <CheckBox
+      android:text="IsConnected"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/chkIsConnected"
+      android:textSize="12dp" />
+  <CheckBox
+    android:text="IsRoaming"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/chkIsRoaming"
+    android:textSize="12dp" />
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+  <TextView
+        android:text="Network State: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNetworkStatePrompt"
+        android:textSize="14dp" />
+  <TextView
+      android:text=""
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/tvNetworkState"
+      android:textSize="14dp"
+	  android:textStyle="bold"/>
+    </LinearLayout>
+
+		<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+
+  <TextView
+      android:text="Detailed Network State: "
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/tvDetailedNetworkStatePrompt"
+      android:textSize="14dp" />
+  <TextView
+      android:text=""
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/tvDetailedNetworkState"
+      android:textSize="14dp"
+      android:textStyle="bold"/>
+    </LinearLayout>
+
+
+		<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+
+  <TextView
+      android:text="Connectivity Type: "
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/tvConnectivityTypePrompt"
+      android:textSize="14dp" />
+  <TextView
+      android:text=""
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/tvConnectivityType"
+      android:textSize="14dp"
+	  android:textStyle="bold"/>
+    </LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+
+  <TextView
+    android:text="Connectivity Type name: "
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tvConnectivityTypeNamePrompt"
+    android:textSize="14dp" />
+  <TextView
+      android:text=""
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/tvConnectivityTypeName"
+      android:textSize="14dp"
+	  android:textStyle="bold"/>
+
+    </LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+
+  <TextView
+    android:text="Bytes Sent: "
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tvBytesSentPrompt"
+    android:textSize="14dp" />
+  <TextView
+    android:text=""
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tvBytesSent"
+    android:textSize="14dp"
+	android:textStyle="bold"/>
+	</LinearLayout>
+
+		<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+
+  <TextView
+    android:text="Bytes Received: "
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tvBytesReceivedPrompt"
+    android:textSize="14dp" />
+  <TextView
+    android:text=""
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tvBytesReceived"
+    android:textSize="14dp"
+	android:textStyle="bold" />
+	</LinearLayout>
+
+  
+</LinearLayout>
